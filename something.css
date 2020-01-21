@@ -1,0 +1,50 @@
+#board{
+background-color: rgb(34, 4, 4);
+
+}
+
+
+
+
+#board {
+    padding-top: 3em;
+    text-align: center;
+  }
+  
+  .row {
+    clear: both;
+    margin: 0 auto;
+    width: 302px;
+  }
+  
+  .row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer                   
+  }
+  
+  .row > div:hover {
+      background-color: aqua;
+  }
+  
+  .left {
+    border-right: 1px solid rgb(51, 54, 0.589);
+  }
+  
+  .mid {
+    border-right: 1px solid rgb(51, 54, 0.589);
+  }
+  
+  .top, .center {
+      border-bottom: 1px solid rgb(51, 54, 0.589)
+  }
+
+  a{
+  border:1px solid black;
+  background-color: blueviolet;
+  margin:50px;
+  padding:50px;
+  text-align: center;
+
+  }
